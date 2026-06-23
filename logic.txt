@@ -1,0 +1,62 @@
+this is my calculator logic:
+
+basic arithmetic operations:
+
+addition, subtraction, multiplication and division
+
+let a=0,b=0
+if operation contains "+", then return a+b
+if operation contains "-", then return a-b
+if operation contains "*", then return a*b
+if operation contains "/", then return a/b
+
+what would be the limitations of this?
+no algebraic calculations included.
+didnt conside whole numbers
+
+
+updated logic after consulting with chatgpt:
+
+what i lacked in my previous logic:
+
+1. how to take the input.
+2. how to validate the input. i have only written basic arithmetic operations, 
+but what if user inputs something else than what i defined. for eg, addition of 3 numbers, 
+how to process the errors? 
+3. showing the result. 
+
+i proceeded with writing the code. discovered if you type something, ai with autofinish the entire code. 
+i just pressed enter , typed next line, ai finishes. 
+i managed to complete the code. but its doesnt feel correct. i tried to run it,but error.
+
+consulation no.2 
+
+i asked chatgpt whats wrong in this code, he made me understand whats wrong. 
+i admitted i didnt write it by myself, so he helped me with baby steps.
+now the task to rewrite the logic and do a psuedo code
+
+1. Ask user for first integer: a=int(input("Enter first number:"))
+2. Ask user for second integer: b=int(input("Enter second number:"))
+3. Ask user for the operation: operation = input("Enter the operation (+,-,*,/)")
+
+now focus on the first operation, ie addition
+
+if operation= +
+result = a + b
+return result
+
+print result 
+
+
+self feedback after coding the above logic: what if the user wanted to add 4 numbers or something more 
+
+logic before consulation: let the user enter the operation and we will just input the result. instead of asking individual numbers, let user have the control of what the operation should be
+from the first line.
+
+if he enters 1+2+3 ; then 3 numbers should be saved to 3 variables. and detect the operator in between and it should trigger the operation
+
+consulation 3: i discovered lists. the logic of saving the integers into different variables was limiting
+the thinking should have been, how to save it together in a collection.
+list is an example. it will take the input, extract the numbers and then store in a list as [1,2,3]
+
+but then what about the operation???? hmmm.
