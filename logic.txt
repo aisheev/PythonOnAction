@@ -60,3 +60,12 @@ the thinking should have been, how to save it together in a collection.
 list is an example. it will take the input, extract the numbers and then store in a list as [1,2,3]
 
 but then what about the operation???? hmmm.
+
+lets research.
+
+consulation 4 : came to know about expression parsing. i researched about how to take the input and store in the list
+it said, to split the input and then take the integers in list and then do the operation
+the initial idea is to just do the addition. 
+so i wrote to split the input wherever there is +
+and the rest integers will the saved in a list, through a loop
+next step is to do the sum. code run successfully.
