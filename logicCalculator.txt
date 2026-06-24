@@ -69,3 +69,21 @@ the initial idea is to just do the addition.
 so i wrote to split the input wherever there is +
 and the rest integers will the saved in a list, through a loop
 next step is to do the sum. code run successfully.
+
+
+testing the logic: i tried to add a string to the input for addition. it gave a value error. 
+this situation should be taken care of with proper error message. 
+
+logic for the error message:
+
+if detected any string in the input, then show error "Invalid input, Please try again"
+then the input window should remain open for the next entry.
+
+consulation 5:apparently the logic of detecting the string in input is wrong. input() in python 
+is always taking a string as input from user. so 1+2+3 is always an integer. for arithmetic operations
+it was being converted to int. 
+so here the thought process should be, an error should be shown when the conversion to int is not possible. 
+in the current code, before saving the numbers to list, its being converted to int. so my logic now
+is to detect the piece which is not being turnt to int. 
+
+
