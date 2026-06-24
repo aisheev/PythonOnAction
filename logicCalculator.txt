@@ -86,4 +86,6 @@ so here the thought process should be, an error should be shown when the convers
 in the current code, before saving the numbers to list, its being converted to int. so my logic now
 is to detect the piece which is not being turnt to int. 
 
-
+chatgpt suggested me to use while loop along with try and except.
+tried to figure out where to use while. 
+also understood the importance of indentation in python

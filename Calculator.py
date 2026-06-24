@@ -10,9 +10,17 @@ import math
 
 
 #rewriting to encorporate lists in addition
+while True:
+    a = input("Enter your input: ")
 
-a = input()
-parts = a.split("+")
-result = sum(int(part) for part in parts)
-print(f"The result of {a} is: {result}")
+    try:
+        parts = a.split("+")
+        result = sum(int(part) for part in parts)
+        print(f"The result of {a} is: {result}")
+        break
+
+    except ValueError:
+        print("Invalid input")
+
+
 
