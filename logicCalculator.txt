@@ -89,3 +89,8 @@ is to detect the piece which is not being turnt to int.
 chatgpt suggested me to use while loop along with try and except.
 tried to figure out where to use while. 
 also understood the importance of indentation in python
+
+what else i can think of to break this?
+tried to put space between adding numbers -> still works!
+tried just alphabets -> throwing the error successfully
+i couldnt think more, so lets consult ai for more road blocks
